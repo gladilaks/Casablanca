@@ -1,0 +1,87 @@
+/* GLOBAL CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html {
+  font-size: 62%;
+}
+
+h1 {
+  font-size: 120%;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4,
+h5 {
+  font-size: 2, 8rem;
+}
+
+li {
+  font-size: 2, 6rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.main-head {
+  background: green;
+  color: white;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+#logo {
+  flex: 1 1 40rem;
+}
+
+/* HERO */
+.hero {
+  min-height: 120nvh;
+  background: url(/images/hans-jurgen-weinhardt-XWN79nmyS44-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h3 {
+  padding: 2rem 6rem;
+  background: green;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  border: none;
+}
